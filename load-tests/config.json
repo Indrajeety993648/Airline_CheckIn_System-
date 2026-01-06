@@ -1,0 +1,23 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "scenarios": {
+    "normal": {
+      "vus": 50,
+      "duration": "2m"
+    },
+    "spike": {
+      "maxVus": 500,
+      "duration": "1m"
+    },
+    "stress": {
+      "maxVus": 500,
+      "rampUp": "5m"
+    }
+  },
+  "thresholds": {
+    "p95ResponseTime": 500,
+    "p99ResponseTime": 1000,
+    "errorRate": 0.01,
+    "successRate": 0.95
+  }
+}
