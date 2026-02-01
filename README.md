@@ -2,7 +2,8 @@
 
 A robust, high-concurrency airline check-in system featuring distributed seat locking, idempotency, and overbooking handling. Built with Node.js, TypeScript, PostgreSQL, Redis, and React.
 
-![System Architecture](docs/diagrams/system-architecture.png)
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/132a4506-adc4-4332-89bc-70cb1bc5d5ea" />
+
 
 ## 🚀 Complete Setup Guide
 
